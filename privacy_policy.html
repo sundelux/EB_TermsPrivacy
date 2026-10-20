@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Personal Banking Integration</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #1e293b;
+            background-color: #f8fafc;
+            margin: 0;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e2e8f0;
+        }
+        .header-strip {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #0f172a;
+            padding-bottom: 12px;
+            margin-bottom: 24px;
+        }
+        .doc-type {
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #475569;
+        }
+        .doc-id {
+            font-size: 0.85rem;
+            color: #64748b;
+            font-family: monospace;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #0f172a;
+            margin: 0 0 8px 0;
+        }
+        .subtitle {
+            font-size: 1rem;
+            color: #475569;
+            margin-bottom: 24px;
+        }
+        .meta-card {
+            background: #f1f5f9;
+            border-left: 4px solid #10b981;
+            padding: 16px;
+            margin-bottom: 32px;
+            border-radius: 0 4px 4px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            font-size: 0.9rem;
+        }
+        .meta-item strong {
+            color: #0f172a;
+        }
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #0f172a;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 6px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        p, li {
+            font-size: 0.95rem;
+            color: #334155;
+        }
+        ul {
+            padding-left: 20px;
+            margin-top: 8px;
+            margin-bottom: 16px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 16px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 0.85rem;
+            color: #64748b;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-strip">
+            <span class="doc-type">Official Policy Document</span>
+            <span class="doc-id">REF: EB-PP-PRIV</span>
+        </div>
+
+        <h1>Privacy Policy</h1>
+        <div class="subtitle">Data Processing Notice for Private Banking Integration</div>
+
+        <div class="meta-card">
+            <div class="meta-item"><strong>Data Controller:</strong> Private Individual (Self)</div>
+            <div class="meta-item"><strong>Regulation:</strong> GDPR Art. 2(2)(c) Compliant</div>
+            <div class="meta-item"><strong>Target Data:</strong> Own Bank Accounts Only</div>
+            <div class="meta-item"><strong>Third-Party Sharing:</strong> None (0%)</div>
+        </div>
+
+        <h2>1. Overview</h2>
+        <p>This Privacy Notice describes how financial data is handled within this personal integration project ("Application"). The Application is developed and operated by a private individual strictly for <strong>personal, non-commercial use</strong> (Data Subject and Data Controller are the same individual). The Application accesses financial data solely from bank accounts owned by the Operator.</p>
+
+        <h2>2. Categories of Data Processed</h2>
+        <p>Through the Enable Banking API, the Application retrieves account information and transaction histories from the Operator's explicit bank accounts, including:</p>
+        <ul>
+            <li>Account details (e.g., IBAN, account balance, currency)</li>
+            <li>Transaction history (e.g., date, amount, payee/payer details, remittance information)</li>
+        </ul>
+
+        <h2>3. Purpose and Legal Basis of Processing</h2>
+        <p>Data processing is conducted exclusively for personal budgeting, expense tracking, and private financial analysis. The legal basis corresponds to explicit consent (GDPR Art. 6(1)(a)) and the household exemption for purely personal activities under GDPR Art. 2(2)(c).</p>
+
+        <h2>4. Data Storage &amp; Third-Party Policy</h2>
+        <ul>
+            <li><strong>Zero Third-Party Sharing:</strong> Retrieved banking data is never shared, sold, rented, or transferred to any third party, marketing service, or commercial platform.</li>
+            <li><strong>Private Local Storage:</strong> All processed data remains strictly within the Operator's private local environment or encrypted private storage systems.</li>
+            <li><strong>No Public Exposure:</strong> No personal financial data is stored in or rendered visible through public repositories or public web interfaces.</li>
+        </ul>
+
+        <h2>5. Consent &amp; Data Control</h2>
+        <p>API access tokens and authorization credentials are maintained in secure configuration files excluded from public view. Consents granted via Enable Banking can be revoked at any time by the Operator directly through their bank or the Enable Banking interface.</p>
+
+        <h2>6. Administrative Contact</h2>
+        <p>For data protection inquiries regarding this repository, please reach out via the communication tools provided by the repository host platform (e.g., Repository Issues).</p>
+
+        <footer>
+            Enable Banking Personal Integration — Privacy Policy
+        </footer>
+    </div>
+</body>
+</html>
